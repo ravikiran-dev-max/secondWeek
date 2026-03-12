@@ -1,0 +1,63 @@
+### To get all Users
+GET http://localhost:3002/user-api/users
+
+
+###
+GET http://localhost:3002/user-api/users
+
+### To create An User
+POST http://localhost:3002/user-api/users
+Content-Type: application/json
+
+{
+    "id":1,
+    "name":"Ravi",
+    "age":20
+}
+
+### To Update an Existing User by id(id=1)
+PUT http://localhost:3002/user-api/users
+Content-Type: application/json
+
+{
+     "id":1,
+    "name":"kiran",
+    "age":19
+}
+
+### To Delete an Existing User by id
+DELETE http://localhost:3002/user-api/users
+
+
+
+### To Read All Products
+GET http://localhost:3002/product-api/products
+
+
+### To read User by Id
+GET http://localhost:3002/product-api/products
+
+
+### To Create an new User
+POST http://localhost:3002/product-api/products
+Content-Type: application/json
+
+{
+    "productId":1,
+    "Brand":"hp",
+     "price":60000
+}
+
+### To Update the User
+PUT http://localhost:3002/product-api/products/1
+Content-type:application/json
+
+{
+   "productId":1,
+    "Brand":"lenevo",
+     "price":70000
+}
+
+
+###To delete an Existing User by his Id
+DELETE http://localhost:3002/users/1
